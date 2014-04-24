@@ -1,4 +1,4 @@
 # One Month Rails
 
 
-This is the saample app for pinteresting.
+This is the sample app for pinteresting.

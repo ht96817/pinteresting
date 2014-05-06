@@ -8,22 +8,27 @@
           <%= devise_error_messages! %>
 
                 <div class="form-group">
-                <%= f.label :email %>
-                <%= f.email_field :email, :autofocus => true, class: "form-control" %>
+                    <%= f.label :name %>
+                    <%= f.text_field :name, autofocus: true, class: "form-control" %>
+                  </div>
+
+                <div class="form-group">
+                    <%= f.label :email %>
+                    <%= f.email_field :email, :autofocus => true, class: "form-control" %>
                 </div>
 
                 <div class="form-group">
-                <%= f.label :password %><br />
-                <%= f.password_field :password, class: "form-control" %>
+                    <%= f.label :password %><br />
+                    <%= f.password_field :password, class: "form-control" %>
                 </div>
 
                 <div class="form-group">
-                <%= f.label :password_confirmation %><br />
-                <%= f.password_field :password_confirmation, class: "form-control" %>
+                    <%= f.label :password_confirmation %><br />
+                    <%= f.password_field :password_confirmation, class: "form-control" %>
                 </div>
 
                 <div class="form-group">
-                <%= f.submit "Sign up", class: "btn btn-primary" %>
+                    <%= f.submit "Sign up", class: "btn btn-primary" %>
                 </div>
           <% end %>
     </div>
